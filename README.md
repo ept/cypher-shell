@@ -114,3 +114,9 @@ node cypher-shell.mjs ../movies.tvdb my-queries.cypher > results.txt
   documentation describes the Cypher and GQL features it supports. The engine package was
   written for web browsers; `cypher-shell.mjs` provides the few browser features it needs
   so that it also runs under Node.js.
+
+## Licence
+
+The code in this repository is available under the [MIT licence](LICENSE). This does not
+cover the Traverse engine itself, which `npm install` downloads separately, and which is
+distributed by Truespar under its own terms.
