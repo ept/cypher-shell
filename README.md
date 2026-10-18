@@ -1,7 +1,8 @@
 # Running Cypher queries on your own machine
 
-The easiest way to try the graph queries in the Databases course is the Traverse app in
-your web browser (see the lecture notes). If you prefer to work on the command line, this
+The easiest way to try the graph queries in the
+[Databases course](https://www.cst.cam.ac.uk/teaching/2627/Databases/) at the University of
+Cambridge is the Traverse app in your web browser (see the lecture notes). If you prefer to work on the command line, this
 directory contains a small shell that runs the same database engine on your own computer,
 using [Node.js](https://nodejs.org/). Queries give the same results as in the browser,
 since it is the same engine, but the results are shown as text tables rather than as a
@@ -13,8 +14,15 @@ picture of the graph.
   `node --version`. If the command is not found, or prints a version older than v18,
   install the current LTS version from <https://nodejs.org/>. (On macOS with Homebrew,
   `brew install node` also works.)
-- **This directory**, `cypher-shell`, downloaded from the course web page as
-  `cypher-shell.zip`, and unzipped.
+- **This repository.** Either clone it with git:
+
+  ```
+  git clone https://github.com/ept/cypher-shell.git
+  ```
+
+  or, on <https://github.com/ept/cypher-shell>, click the green "Code" button, then
+  "Download ZIP", and unzip the file (this gives you a directory called
+  `cypher-shell-main`, which you can rename to `cypher-shell`).
 - **The graph database**, `movies.tvdb`, from the course web page. This is the same file
   that you would upload to the browser app.
 
